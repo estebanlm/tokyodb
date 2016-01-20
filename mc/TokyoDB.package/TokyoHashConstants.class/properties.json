@@ -1,0 +1,27 @@
+{
+	"category" : "TokyoDB",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"HDBFFATAL",
+		"HDBFOPEN",
+		"HDBOCREAT",
+		"HDBOLCKNB",
+		"HDBONOLCK",
+		"HDBOREADER",
+		"HDBOTRUNC",
+		"HDBOTSYNC",
+		"HDBOWRITER",
+		"HDBTBZIP",
+		"HDBTDEFLATE",
+		"HDBTEXCODEC",
+		"HDBTLARGE",
+		"HDBTTCBS" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TokyoHashConstants",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

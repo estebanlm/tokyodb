@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createAndOpenDatabase:" : "EstebanLorenzano 1/20/2016 15:30",
+		"createAndOpenDatabase:path:" : "EstebanLorenzano 1/20/2016 15:30",
+		"databaseFor:" : "EstebanLorenzano 1/20/2016 14:33",
+		"fileReferenceFor:" : "EstebanLorenzano 1/20/2016 14:42",
+		"setUp" : "EstebanLorenzano 1/20/2016 14:34",
+		"tearDown" : "EstebanLorenzano 1/20/2016 14:40" } }

@@ -1,0 +1,3 @@
+private
+basicClose
+	^ self tchdbclose

@@ -1,0 +1,3 @@
+private
+basicCursorInit
+	self subclassResponsibility

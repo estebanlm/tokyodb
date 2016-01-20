@@ -1,0 +1,14 @@
+{
+	"category" : "TokyoDB-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"database" ],
+	"name" : "TokyoTestResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+basicErrorMessage: code
+	self subclassResponsibility

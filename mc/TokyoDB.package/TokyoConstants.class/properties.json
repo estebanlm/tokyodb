@@ -1,0 +1,37 @@
+{
+	"category" : "TokyoDB",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ECLOSE",
+		"EINVALID",
+		"EKEEP",
+		"ELOCK",
+		"EMETA",
+		"EMISC",
+		"EMKDIR",
+		"EMMAP",
+		"ENOFILE",
+		"ENOPERM",
+		"ENOREC",
+		"EOPEN",
+		"EREAD",
+		"ERENAME",
+		"ERHEAD",
+		"ERMDIR",
+		"ESEEK",
+		"ESTAT",
+		"ESUCCESS",
+		"ESYNC",
+		"ETHREAD",
+		"ETRUNC",
+		"EUNLINK",
+		"EWRITE" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TokyoConstants",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

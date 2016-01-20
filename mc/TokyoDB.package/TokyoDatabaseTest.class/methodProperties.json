@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"isAbstract" : "EstebanLorenzano 1/20/2016 13:18",
+		"resources" : "EstebanLorenzano 1/20/2016 14:29" },
+	"instance" : {
+		"database" : "EstebanLorenzano 1/20/2016 14:32",
+		"databaseClass" : "EstebanLorenzano 1/20/2016 13:25",
+		"databaseWith:" : "EstebanLorenzano 1/20/2016 14:42",
+		"testAt" : "EstebanLorenzano 1/20/2016 14:41",
+		"testAtPut" : "EstebanLorenzano 1/20/2016 14:27",
+		"testKeysAndValuesDo" : "EstebanLorenzano 1/20/2016 15:02" } }
