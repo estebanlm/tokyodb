@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTokyoDB",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTokyoDB",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
