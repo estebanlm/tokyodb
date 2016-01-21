@@ -1,0 +1,15 @@
+{
+	"category" : "TokyoDB",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"size" ],
+	"name" : "TokyoObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

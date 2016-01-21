@@ -1,0 +1,3 @@
+private
+basicObjectAt: keyString
+	self subclassResponsibility
