@@ -1,5 +1,6 @@
 enumerating
 keysAndObjectsDo: aBlock
+	"Iterate collection and retrieve values as TokyoObject instances"
 	| key |
 	
 	self cursorInit.

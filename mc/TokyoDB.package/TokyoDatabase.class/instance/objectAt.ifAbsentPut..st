@@ -1,6 +1,6 @@
 accessing
 objectAt: key ifAbsentPut: aBlock 
-	"Return the value at the given key. 
+	"Return the value at the given key, represented as a TokyoObject instance.
 	If key is not included in the receiver store the result 
 	of evaluating aBlock as new value."
 
