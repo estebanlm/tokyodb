@@ -1,3 +1,3 @@
 accessing
-autoRelease
+registerAsExternalResource
 	FFIExternalResourceManager addResource: self data: handle
