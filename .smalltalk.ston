@@ -6,6 +6,6 @@ SmalltalkCISpec {
 		}
 	],
 	#testing : {
-		#categories: [ 'TokyoDB.*' ]
+		#categories: [ 'TokyoDB*' ]
 	}
 }
