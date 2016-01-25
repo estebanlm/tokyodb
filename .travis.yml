@@ -5,5 +5,7 @@ before_script: scripts/build-tokyocabinet.sh
 addons:
   apt:
     packages:
+      - libc6-dev:i386
       - build-essential
+      - gcc-multilib
       - g++
