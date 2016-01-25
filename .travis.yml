@@ -1,7 +1,7 @@
 language: smalltalk
 sudo: false
 smalltalk: Pharo-5.0
-before_script: scripts/build-tokyocabinet.sh
+#before_script: scripts/build-tokyocabinet.sh
 addons:
   apt:
     packages:
