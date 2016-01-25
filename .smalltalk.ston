@@ -4,5 +4,8 @@ SmalltalkCISpec {
 			#baseline : 'TokyoDB',
 			#directory : 'mc'
 		}
+	],
+	#testing : [
+		#packages: 'TokyoDB.*'
 	]
 }
