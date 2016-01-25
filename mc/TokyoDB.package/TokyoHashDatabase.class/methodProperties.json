@@ -7,6 +7,7 @@
 		"tchdbnew" : "EstebanLorenzano 1/20/2016 09:12" },
 	"instance" : {
 		"basicAt:" : "EstebanLorenzano 1/20/2016 15:11",
+		"basicAt:put:" : "EstebanLorenzano 1/25/2016 15:28",
 		"basicAt:putObject:size:" : "EstebanLorenzano 1/21/2016 12:58",
 		"basicClose" : "EstebanLorenzano 1/20/2016 13:14",
 		"basicCursorInit" : "EstebanLorenzano 1/20/2016 14:57",
