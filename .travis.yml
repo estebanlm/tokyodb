@@ -8,8 +8,8 @@ addons:
       - libc6-dev:i386
       - zip:i386
       - bzip2:i386
-	  - zlib1g:i386
-	  - zlib1g-dev:i386
+      - zlib1g:i386
+      - zlib1g-dev:i386
       - build-essential
       - gcc-multilib
       - g++
