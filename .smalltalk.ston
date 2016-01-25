@@ -4,8 +4,5 @@ SmalltalkCISpec {
 			#baseline : 'TokyoDB',
 			#directory : 'mc',
 		}
-	],
-	#testing : {
-		 #categories : [ 'TokyoDB*' ]
-	}
+	]
 }
