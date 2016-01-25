@@ -1,8 +1,5 @@
 #! /bin/bash
 
-ROOT="`pwd`"
-echo "$ROOT"
-
 default_tokyo_version="1.4.48"
 
 if [ $1 == "" ]; then
@@ -14,9 +11,9 @@ fi
 wget http://fallabs.com/tokyocabinet/tokyocabinet-$tokyo_version.tar.gz
 tar xfz tokyocabinet-$tokyo_version.tar.gz
 cd tokyocabinet-$tokyo_version
-./configure
+CFLAGS="-m32" LDFLAGS="-m32" ./configure
 make
-# put libraries in the root build
+# put libraries in the root build 
 echo -n "Copying library to root path"
-cp -f lib* $ROOT/..
-cd $ROOT/..
+cp -f lib* $ROOT
+cd $ROOT
