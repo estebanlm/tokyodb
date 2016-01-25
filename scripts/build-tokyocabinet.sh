@@ -1,5 +1,8 @@
 #! /bin/bash
 
+ROOT="`pwd`"
+echo "$ROOT"
+
 default_tokyo_version="1.4.48"
 
 if [ $1 == "" ]; then
@@ -15,5 +18,5 @@ cd tokyocabinet-$tokyo_version
 make
 # put libraries in the root build
 echo -n "Copying library to root path"
-cp -f lib* $HOME
-cd $HOME
+cp -f lib* $ROOT/..
+cd $ROOT/..
