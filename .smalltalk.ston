@@ -2,7 +2,8 @@ SmalltalkCISpec {
 	#loading : [
 		SCIMetacelloLoadSpec {
 			#baseline : 'TokyoDB',
-			#directory : 'mc'
+			#directory : 'mc',
+			#platforms : [ #pharo ] 
 		}
 	],
 	#testing : [
