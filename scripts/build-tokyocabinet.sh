@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 default_tokyo_version="1.4.48"
 
 if [ $1 == "" ]; then
