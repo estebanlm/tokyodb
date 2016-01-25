@@ -14,4 +14,6 @@ cd tokyocabinet-$tokyo_version
 ./configure
 make
 # put libraries in the root build
-cp -f lib* ../..
+echo -n "Copying library to root path"
+cp -f lib* $HOME
+cd $HOME
