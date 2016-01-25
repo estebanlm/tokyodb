@@ -6,7 +6,6 @@ addons:
   apt:
     packages:
       - libc6-dev:i386
-      - libbz2-dev:i386
       - build-essential
       - gcc-multilib
       - g++
