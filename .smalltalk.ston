@@ -3,10 +3,9 @@ SmalltalkCISpec {
 		SCIMetacelloLoadSpec {
 			#baseline : 'TokyoDB',
 			#directory : 'mc',
-			#platforms : [ #pharo ] 
 		}
 	],
-	#testing : [
+	#testing : {
 		 #categories : [ 'TokyoDB*' ]
-	]
+	}
 }
