@@ -1,6 +1,6 @@
 #! /bin/bash
 
-$default_tokyo_version="1.4.48"
+default_tokyo_version="1.4.48"
 
 if [ $1 == "" ]; then
 	tokyo_version="$1"
