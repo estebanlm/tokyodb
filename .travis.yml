@@ -12,9 +12,12 @@ addons:
 # this are for building tokyo:
       - libc6-dev:i386
       - zlib1g-dev:i386
+      - bzip2:i386
+      - lib32z1-dev:i386
       - build-essential
       - gcc-multilib
       - g++
-#before_script: scripts/build-tokyocabinet.sh
+before_script: 
+  - scripts/build-tokyocabinet.sh
 script: 
   - scripts/run-tests.sh

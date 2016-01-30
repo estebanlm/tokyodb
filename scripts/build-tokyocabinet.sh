@@ -13,7 +13,9 @@ fi
 wget http://fallabs.com/tokyocabinet/tokyocabinet-$tokyo_version.tar.gz
 tar xfz tokyocabinet-$tokyo_version.tar.gz
 cd tokyocabinet-$tokyo_version
-CFLAGS="-m32" LDFLAGS="-m32" ./configure
+export CFLAGS="-m32" 
+export LDFLAGS="-m32" 
+./configure
 make
 # put libraries in the root build 
 echo -n "Copying library to root path"
