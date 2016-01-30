@@ -10,11 +10,11 @@ addons:
       - lib32bz2-1.0
       - libssl1.0.0:i386
 # this are for building tokyo:
-      - libc6-dev:i386
+#      - libc6-dev:i386
       - zlib1g-dev:i386
       - lib32z1-dev:i386
-      - build-essential:i386
-      - gcc-4.8-multilib:i386
+#      - build-essential:i386
+#      - gcc-4.8-multilib:i386
 script: 
   - scripts/build-tokyocabinet.sh
   - scripts/run-tests.sh
