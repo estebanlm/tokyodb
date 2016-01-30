@@ -1,15 +1,20 @@
-language: smalltalk
-sudo: false
-smalltalk: Pharo-5.0
-#before_script: scripts/build-tokyocabinet.sh
+language: c
+os:
+  - linux
+#  - osx
 addons:
   apt:
     packages:
+      - lib32asound2
+      - lib32z1
+      - lib32bz2-1.0
+      - libssl1.0.0:i386
+# this are for building tokyo:
       - libc6-dev:i386
-      - zip:i386
-      - bzip2:i386
-      - zlib1g:i386
       - zlib1g-dev:i386
       - build-essential
       - gcc-multilib
       - g++
+#before_script: scripts/build-tokyocabinet.sh
+script: 
+  - scripts/run-tests.sh
