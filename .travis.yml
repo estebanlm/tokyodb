@@ -15,8 +15,7 @@ addons:
       - lib32z1-dev:i386
 #      - build-essential:i386
 #      - gcc-4.8-multilib:i386
-#before_script:
-script: 
+before_script:
   - scripts/build-tokyocabinet.sh
-  - cat config.log
-#  - scripts/run-tests.sh
+script: 
+  - scripts/run-tests.sh
