@@ -17,7 +17,6 @@ addons:
       - build-essential
       - gcc-multilib
       - g++
-before_script: 
-  - scripts/build-tokyocabinet.sh
 script: 
+  - scripts/build-tokyocabinet.sh
   - scripts/run-tests.sh
