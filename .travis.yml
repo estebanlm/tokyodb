@@ -14,9 +14,8 @@ addons:
       - zlib1g-dev:i386
       - bzip2:i386
       - lib32z1-dev:i386
-      - build-essential
-      - gcc-multilib
-      - g++
+      - build-essential:i386
+      - gcc-4.8-multilib:i386
 script: 
   - scripts/build-tokyocabinet.sh
   - scripts/run-tests.sh
