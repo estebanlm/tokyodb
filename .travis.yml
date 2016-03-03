@@ -1,7 +1,7 @@
 language: c
 os:
   - linux
-#  - osx
+  - osx
 addons:
   apt:
     packages:
@@ -9,13 +9,14 @@ addons:
       - lib32z1
       - lib32bz2-1.0
       - libssl1.0.0:i386
-# this are for building tokyo:
-#      - libc6-dev:i386
-      - zlib1g-dev:i386
-      - lib32z1-dev:i386
-#      - build-essential:i386
-#      - gcc-4.8-multilib:i386
-before_script:
-  - scripts/build-tokyocabinet.sh
-script: 
-  - scripts/run-tests.sh
+      - libfreetype6:i386
+before_script: 
+  - git clone --depth=1 https://github.com/estebanlm/pharo-travis-ci.git
+  - cp lib/$TRAVIS_OS_NAME/* .
+script:
+  - pharo-travis-ci/run-tests.sh
+env: 
+  global: 
+    - baseline="TokyoDB"
+    - packages_dir="mc"
+    - pharo_version="50"
