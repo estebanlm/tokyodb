@@ -1,7 +1,9 @@
 {
+	"commentStamp" : "<historical>",
+	"super" : "SharedPool",
 	"category" : "TokyoDB",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"ECLOSE",
 		"EINVALID",
@@ -26,12 +28,9 @@
 		"ETHREAD",
 		"ETRUNC",
 		"EUNLINK",
-		"EWRITE" ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
+		"EWRITE"
+	],
+	"instvars" : [ ],
 	"name" : "TokyoConstants",
-	"pools" : [
-		 ],
-	"super" : "SharedPool",
-	"type" : "normal" }
+	"type" : "normal"
+}

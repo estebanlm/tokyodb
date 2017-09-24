@@ -1,6 +1,6 @@
 running
 tearDown
-	database keysAndValuesDo: [ :class :db | 
+	database keysAndValuesDo: [ :aName :db | 
 		db close.
-		(self fileReferenceFor: class) ensureDelete ].
+		(self fileReferenceForName: aName) ensureDelete ].
 	
