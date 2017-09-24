@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #TokyoDB!
-SystemOrganization addCategory: 'TokyoDB-Tests'!
+SystemOrganization addCategory: #'TokyoDB-Tests'!

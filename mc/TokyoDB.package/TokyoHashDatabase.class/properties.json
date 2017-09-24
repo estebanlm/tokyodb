@@ -1,14 +1,13 @@
 {
-	"category" : "TokyoDB",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "TokyoHashDatabase",
-	"pools" : [
-		"TokyoHashConstants" ],
 	"super" : "TokyoDatabase",
-	"type" : "normal" }
+	"category" : "TokyoDB",
+	"classinstvars" : [ ],
+	"pools" : [
+		"TokyoHashConstants"
+	],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TokyoHashDatabase",
+	"type" : "normal"
+}
