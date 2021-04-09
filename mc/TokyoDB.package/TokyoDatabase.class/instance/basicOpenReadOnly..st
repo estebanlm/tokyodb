@@ -1,3 +1,0 @@
-private
-basicOpenReadOnly: aString
-	self subclassResponsibility

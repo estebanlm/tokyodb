@@ -1,3 +1,0 @@
-accessing
-databaseClass
-	^ self subclassResponsibility

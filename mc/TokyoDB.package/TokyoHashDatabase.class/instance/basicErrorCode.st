@@ -1,3 +1,0 @@
-private
-basicErrorCode
-	^ self tchdbecode

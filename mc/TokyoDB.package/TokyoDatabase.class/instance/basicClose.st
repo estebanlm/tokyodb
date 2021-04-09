@@ -1,3 +1,0 @@
-private
-basicClose
-	^ self subclassResponsibility
